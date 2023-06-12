@@ -1,0 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .nav {
+    display: flex;
+    top: 0;
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    width: 100%;
+    background-color: #6f6af7;
+    padding: 27px 44px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-list {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+  }
+  
+  .nav h1 {
+    font-size: 62px;
+  }
+  
+  .nav-list p {
+    font-size: 37px;
+  }
+  
+  .search-box {
+    position: relative;
+  }
+  
+  .search-box input {
+    width: 314px;
+    height: 57px;
+    border-radius: 63px;
+    border: none;
+    font-size: 25px;
+    padding-left: 25px;
+    outline: none;
+  }
+  
+  .search-box img {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+  }
+
+  .icons {
+    width: 100px;
+    display: flex;
+    position: absolute;
+    right: 0;
+    margin-top: 150px;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+.icons img {
+  width: 85px;
+}
+
+  .content {
+    width: 1478px;
+    margin: auto;
+    margin-top:120px;
+  }
+
+  .hero {
+    display: flex;
+    gap: 50px;
+  }
+
+  .hero img{
+    height: 456px;
+    width: 507px;
+  }
+
+  .hero textarea {
+    width: 972px;
+    height: 456px;
+    color: black;
+    font-size: 30px;
+    background-color: #E5D8FF;
+    padding: 30px;
+    box-shadow: inset 3px 5px 27px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+  }
+
+  .score-card {
+    width: 100%;
+    display: flex;
+    gap: 60px;
+    margin-top: 135px;
+  }
+
+  .score-card div {
+    padding: 20px 30px;
+    box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+    border-radius: 11px;
+    color: white;
+    width: 337px;
+    height: 145px;
+  }
+
+  .score {
+    margin-top: 20px;
+  }
+
+  .score-card p {
+    font-size: 28px;
+  }
+
+  .box1{
+    background-color: #929DFF;
+  }
+  
+  .box2 {
+    background-color: #734CF2;
+  }
+
+   
+  .box3 {
+    background-color: #D288FF;
+  }
+
+   
+  .box4 {
+    background-color: #000000;
+    position: relative;
+  }
+
+  .box4 img {
+    position: absolute;
+    top: 50px;
+    right: -20px;
+  }
+
+  .contact{
+    width: 100%;
+    background-color: #483EFF;
+    margin-top: 190px;
+    border: 1px solid black;
+    height: 717px;
+    border-radius: 21px;
+    padding: 30px;
+    display: flex;
+    gap: 42px;
+  }
+
+  .tabs {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 82px;
+    margin: 43px 22px;
+  }
+
+  .tabs div{
+    height: 133px;
+    width: 400px;
+    border: 5px solid white;
+    font-size: 35px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 22px;
+  }
+
+  .form {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    padding:72px 54px;
+    position: relative;
+  }
+
+  .form h1{
+    font-size: 38px;
+    font-weight: 700;
+  }
+
+  .form div p {
+    font-size: 28px;
+    margin-top: 40px;
+  }
+
+  .form-details {
+    margin-top: 17px;
+    margin-left: 30px;
+  }
+
+  .btn {
+    background-color: #000000;
+    color: white;
+    width: 207px;
+    height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 36px;
+    right: 56px;
+  }
+
+  .btn p {
+    font-size: 30px;
+  }
+
+  .float {
+    position: fixed;
+    top: 50%;
+    right: 118px;
+  }
+
